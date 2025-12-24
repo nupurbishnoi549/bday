@@ -468,7 +468,7 @@ body {
 .box__letter .letter__border{
     position: absolute;
     width: 55vw;
-    height: 450px;
+    height: 510px;
     background-color: var(--color-white);
     border-radius: 27px;
     padding: 17px;
@@ -592,7 +592,7 @@ body {
     animation: opacityHeart 1s 1s forwards;
 }
 .content__letter .right .text__letter{
-    margin-top: 60px;
+    margin-top: 81px;
     padding: 20px 15px 10px 15px;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
@@ -694,15 +694,7 @@ body {
         animation: scaleCricle 3s 15s forwards ease-in-out;
     }
 
-    .title .hat {
-        position: absolute;
-        right: -98px;
-        top: -51px !important;
-        transform: rotate(-40deg);
-        z-index: -1;
-        animation: topHat 4s 7s forwards ease;
-    }
-
+     
     .box__letter .letter__border {
         position: absolute;
         width: 90vw;
@@ -841,7 +833,10 @@ h1 {
   70% { box-shadow: 0 0 0 10px rgba(255, 105, 180, 0); }
   100% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0); }
 }
-
-    
-
+}
+@media(max-width:600px){
+    .content .left {
+            width: 40%;
+            padding-left: 0px !important;
+        }
 }
